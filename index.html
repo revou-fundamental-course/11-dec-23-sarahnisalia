@@ -9,7 +9,7 @@
 <body>
     <nav>
         <div class="wrapper">
-            <div class="logo"><a href="">logo</a></div>
+            <div class="logo"><img src="assets/pp.png"></div>
             <div class="menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -24,7 +24,7 @@
         <!--Untuk home-->
         <section id="home">
             <div class="box">
-                <img src="assets/sekolah.jpg">
+                <img src="assets/sekul.jpg">
                 <div class="banner-text">
                     <h1> Hai Sarah, Welcome To Ju School</h1>
                     <h4>Ini adalah website latihan paertaman</h4>
@@ -33,7 +33,7 @@
         </section>
 
         <!--Untuk Fasilitas-->
-        <section>
+        <section id="messageus">
             <div class="facilitation-text">
                 <h1>Our Facilitation</h1>
             </div>
@@ -52,6 +52,55 @@
                 </div>
             </div>
         </section>
+
+        <!--Pesan-->
+        <div class="containear">
+            <div class="facilitation-text">
+                <h1>Message Us</h1>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="fname">Nama</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="fname" name="fullname" placeholder="Nama">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="tanggal">Tanggal Lahir</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="date" id="tanggal" name="tanggal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="gender">Jenis Kelamin</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="radio" id="laki" name="kelamin" value="Laki-laki">
+                        <label for="laki">Laki-Laki</label>
+                        <input type="radio" id="perempuan" name="kelamin" value="Perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="massage">Massage</label>
+                    </div>
+                    <div class="col-2">
+                        <textarea id="massage" name="massage" placeholder="Pesan" style="height: 200px;"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
 
 </body>
 </html>
